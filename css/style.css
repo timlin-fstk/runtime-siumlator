@@ -8,7 +8,18 @@ div.queue-area {
 	height: 500px;
 }
 
+.runtime-row {
+	margin-bottom: 15px;
+}
 
+.runtime-task-slot {
+	height: 42px;
+  width: 100px;
+  background: #ccc;
+  border: 1px solid black;
+  padding: 5px;
+  float: left;
+}
 .slot-col-5 {
 	float: left;
   width: 80px;

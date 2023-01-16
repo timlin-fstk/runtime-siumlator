@@ -36,16 +36,16 @@
                 Task A
               </div>
               <div class="button-row">
-                <button class="btn btn-secondary add-priority-task" type="button" data-tasktype="A" data-priority="1">+Priority</button>
-                <button class="btn btn-secondary" type="button">+Normal</button>
+                <button class="btn btn-secondary add-normal-task" type="button" data-tasktype="a" data-load="1000" data-priority="1">+Normal</button>
+                <button class="btn btn-secondary" type="button">+Priority</button>
               </div>
 
               <div class="alert alert-primary task-type-b text-center" role="alert">
                 Task B
               </div>
               <div class="button-row">
-                <button class="btn btn-secondary add-priority-task" type="button" data-tasktype="B" data-priority="1">+Priority</button>
-                <button class="btn btn-secondary" type="button">+Normal</button>
+                <button class="btn btn-secondary add-normal-task" type="button" data-tasktype="b" data-load="5000" data-priority="1">+Normal</button>
+                <button class="btn btn-secondary" type="button">+Priority</button>
               </div>
 
             </div>
@@ -66,23 +66,47 @@
                   <div class="runtime-title">
                     Default Runtime
                   </div>
-                  <div class="runtime-slot runtime1">
+                  <div class="task-slot-row runtime1 default">
+                    <div class="runtime-task-slot slot1"></div>
+                    <div class="runtime-task-slot slot2"></div>
+                    <div class="runtime-task-slot slot3"></div>
+                    <div class="runtime-task-slot slot4"></div>
+                    <div class="runtime-task-slot slot5"></div>
+                  </div>
+                </div>
+                <div class="runtime-row">
+                  <div class="runtime-title">
+                    Priority Runtime
+                  </div>
+                  <div class="runtime-slot runtime1 priority">
                     
                   </div>
                 </div>
               </div>
 
-              <div class="node-row row">
+              <!-- <div class="slot-col-5 task-type-a" id="qqq1"><div class="task-name">qqq1<span class="counter">5</span></div></div> -->
+
+              <!-- <div class="node-row row">
                 <h3>Node 2</h3>
                 <div class="runtime-row">
                   <div class="runtime-title">
                     Default Runtime
                   </div>
-                  <div class="runtime-slot runtime2">
-                    <!-- <div class="slot-col-5">5</div> -->
+                  <div class="task-slot-row runtime2 default">
+                    <div class="runtime-task-slot order1">
+                    </div>
+                    <div class="runtime-task-slot order2"></div>
                   </div>
                 </div>
-              </div>
+                <div class="runtime-row">
+                  <div class="runtime-title">
+                    Priority Runtime
+                  </div>
+                  <div class="runtime-slot runtime2 priority">
+                    
+                  </div>
+                </div>
+              </div> -->
 
             </div>
         </div>
